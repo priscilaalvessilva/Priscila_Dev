@@ -17,21 +17,25 @@ body {
 }
 
 .apresentacao {
-  margin: 10%;
+  margin: 10% 15%;
   padding-left: 5%;
   justify-content: space-between;
   display: flex;
   align-items: center;
+
 }
 
 .apresentacao_conteudo_imagem {
   width: 500px;
   margin-left: -10%;
+  
 }
 
 .apresentacao_conteudo {
   width: 615px;
-  height: ;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .apresentacao_conteudo_titulo {
@@ -48,11 +52,24 @@ body {
 
 .apresentacao_conteudo_paragrafo {
   font-size: 18px;
-  margin-top: 3%;
+  
 }
 
-a {
-  color: burlywood;
+.apresentacao_links_link {
+  color: rgb(0, 0, 0);
+  width: 280px;
+  text-align: center;
+  border-radius: 16px;
+  background-color: burlywood;
+  font-size: 24px;
+  padding: 9px 0px;
+  text-decoration: none;
+  
+}
+
+.apresentacao_links {
+  display: flex;
+  justify-content: space-between;
 }
 
 .destaquedeskills {
@@ -77,8 +94,10 @@ span {
   
 }
 
-#imagemPri{
+.imagemPri{
+  margin-top: 5%;
+  margin-left: 2%;
   color: burlywood;
   border: 3px solid;
-  width: 25%;
+  width: 29%;
 }
