@@ -8,8 +8,12 @@
 body {
   box-sizing: border-box;
   height: 100vh;
-  background-color: rgb(71, 71, 71);  
+  background-color: rgb(22, 22, 22);  
   color: aliceblue;
+}
+
+.corpo {
+  margin-top: 0%;
 }
 
 .apresentacao {
@@ -20,21 +24,31 @@ body {
   align-items: center;
 }
 
+.apresentacao_conteudo_imagem {
+  width: 500px;
+  margin-left: -10%;
+}
+
 .apresentacao_conteudo {
   width: 615px;
   height: ;
 }
 
 .apresentacao_conteudo_titulo {
-  font-size: 40px;
+  font-size: 30px;
   font-family: "Krona One", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
+.apresentacao_conteudo_h3 {
+  font-size: 90%;
+  color: burlywood;
+}
+
 .apresentacao_conteudo_paragrafo {
-  font-size: 17px;
-  margin-top: 3%%;
+  font-size: 18px;
+  margin-top: 3%;
 }
 
 a {
@@ -42,12 +56,13 @@ a {
 }
 
 .destaquedeskills {
+  font-size: 17px;
   color: burlywood;
 }
 
 
 h1 {
-  font-weight: ;
+  font-weight: 100px;
 }
 
 span {
@@ -58,6 +73,7 @@ span {
 /* Imagem */
 
 #Logo {
+
   
 }
 
