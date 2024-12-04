@@ -57,13 +57,14 @@ body {
 
 .apresentacao_links_link {
   color: rgb(0, 0, 0);
-  width: 280px;
+  width: 140px;
   text-align: center;
-  border-radius: 16px;
+  border-radius: 100px;
   background-color: burlywood;
-  font-size: 24px;
-  padding: 9px 0px;
+  font-size: 20px;
+  padding: 2px 2px;
   text-decoration: none;
+  margin-top: 3%;
   
 }
 
