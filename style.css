@@ -8,7 +8,7 @@
 body {
   box-sizing: border-box;
   height: 100vh;
-  background-color: rgb(22, 22, 22);  
+  background-color: #0F0F0F;  
   color: aliceblue;
 }
 
@@ -47,7 +47,7 @@ body {
 
 .apresentacao_conteudo_h3 {
   font-size: 90%;
-  color: burlywood;
+  color: #deb887;
 }
 
 .apresentacao_conteudo_paragrafo {
@@ -56,11 +56,11 @@ body {
 }
 
 .apresentacao_links_link {
-  color: rgb(0, 0, 0);
+  color: #0F0F0F;
   width: 140px;
   text-align: center;
   border-radius: 100px;
-  background-color: burlywood;
+  background-color: #deb887;
   font-size: 20px;
   padding: 2px 2px;
   text-decoration: none;
@@ -75,7 +75,7 @@ body {
 
 .destaquedeskills {
   font-size: 17px;
-  color: burlywood;
+  color: #B5936D;
 }
 
 
@@ -84,11 +84,20 @@ h1 {
 }
 
 span {
-  color: burlywood;
+  color: #B5936D;
   border: 1px solid ;
 }
 
 /* Imagem */
+
+.principal {
+  background-image: url(_imagens/Capa\ de\ Projetos.jpg);
+  
+}
+
+.container {
+    height: 500vh;
+}
 
 #Logo {
 
@@ -98,7 +107,7 @@ span {
 .imagemPri{
   margin-top: 5%;
   margin-left: 2%;
-  color: burlywood;
+  color: #B5936D;
   border: 3px solid;
   width: 29%;
 }
