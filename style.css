@@ -7,7 +7,6 @@
 
 body {
   box-sizing: border-box;
-  height: 100vh;
   background-color: #0F0F0F;  
   color: aliceblue;
 }
@@ -17,8 +16,7 @@ body {
 }
 
 .apresentacao {
-  margin: 10% 15%;
-  padding-left: 5%;
+  padding: 8% 15%;
   justify-content: space-between;
   display: flex;
   align-items: center;
@@ -55,22 +53,37 @@ body {
   
 }
 
+.apresentacao_conteudo_h2 {
+  display: flex;
+  align-items: center;
+}
+
 .apresentacao_links_link {
-  color: #0F0F0F;
-  width: 140px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  color: #faf9f7;
+  width: 378px;
   text-align: center;
-  border-radius: 100px;
-  background-color: #deb887;
+  border-radius: 8px;
+  background-color: #0F0F0F;
   font-size: 20px;
-  padding: 2px 2px;
+  padding: 10px 40px;
   text-decoration: none;
   margin-top: 3%;
+  border: 2px solid #B5936D;
   
+}
+
+.apresentacao_links_link:hover {
+  background-color: #242323;
 }
 
 .apresentacao_links {
   display: flex;
+  align-items: center;
   justify-content: space-between;
+  gap: 22px;
 }
 
 .destaquedeskills {
@@ -110,4 +123,11 @@ span {
   color: #B5936D;
   border: 3px solid;
   width: 29%;
+}
+
+.rodape {
+  padding: 15px;
+  color: #0F0F0F;
+  background-color: #B5936D;
+  text-align: center;
 }
