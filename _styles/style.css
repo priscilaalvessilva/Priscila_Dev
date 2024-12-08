@@ -15,8 +15,26 @@ body {
   margin-top: 0%;
 }
 
+.cabecalho {
+  padding: 2% 10% 0% 5%;
+}
+
+.cabecalho_menu {
+  display: flex;
+  gap: 40px;
+}
+
+.cabecalho_menu_link {
+  color: #B5936D;
+  font-size: 24px;
+  font-weight: 600;
+  text-decoration: none;
+
+
+}
+
 .apresentacao {
-  padding: 8% 15%;
+  padding: 4% 15%;
   justify-content: space-between;
   display: flex;
   align-items: center;
