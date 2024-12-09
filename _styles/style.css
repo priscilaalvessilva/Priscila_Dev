@@ -61,10 +61,6 @@ body {
   font-style: normal;
 }
 
-.apresentacao_conteudo_h3 {
-  font-size: 90%;
-  color: #deb887;
-}
 
 .apresentacao_conteudo_paragrafo {
   font-size: 18px;
@@ -74,6 +70,11 @@ body {
 .apresentacao_conteudo_h2 {
   display: flex;
   align-items: center;
+}
+
+.apresentacao_conteudo_h3 {
+  font-size: 90%;
+  color: #deb887;
 }
 
 .apresentacao_links_link {
