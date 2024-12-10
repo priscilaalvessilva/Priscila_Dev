@@ -44,10 +44,11 @@ body {
 }
 
 .apresentacao {
-  padding: 4% 15%;
+  padding: 6% 10%;
   justify-content: space-between;
   display: flex;
   align-items: center;
+  gap: 82px;
 
 }
 
@@ -95,8 +96,15 @@ body {
 }
 
 .apresentacao_conteudo_imagem {
-  width: 500px;
+  width: 100%;
   margin-left: -10%;
+}
+
+.apresentacao_links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 22px;
 }
 
 .apresentacao_links_link {
@@ -118,13 +126,6 @@ body {
 
 .apresentacao_links_link:hover {
   background-color: var(--cor-hover);
-}
-
-.apresentacao_links {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 22px;
 }
 
 .destaquedeskills {
@@ -158,7 +159,7 @@ span {
 }
 
 #Logo {
-
+   width: 50%;
   
 }
 
@@ -167,7 +168,7 @@ span {
   margin-left: 2%;
   color: var(--cor-terciaria);
   border: 3px solid;
-  width: 29%;
+  width: 30%;
 }
 
 .imagem_Pri_curriculo {
@@ -180,9 +181,40 @@ span {
 
 .rodape {
   width: 100%;
-  padding: 15px;
+  padding: 1%;
   color: var(--cor-primaria);
   background-color: var(--cor-terciaria);
   text-align: center;
   font-family: var(--font-secundaria);
+}
+
+
+@media (max-width: 952px) {
+
+  .apresentacao {
+    padding: 5%;
+    flex-direction: column-reverse;
+  }
+
+  .apresentacao_conteudo {
+    width: auto;
+  }
+
+  .cabecalho { 
+    padding: 10%;
+  }
+
+  .cabecalho_menu {
+    justify-content: center;
+  }
+
+  .imagemPri {
+    margin-top: -10%;
+    width: 40%;
+  }
+
+  .apresentacao_links {
+    flex-direction: column;
+  }
+
 }
